@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="416dp"
+        android:layout_height="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="36dp"
+            android:layout_height="27dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_24"
+            tools:layout_editor_absoluteX="17dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sok Sao"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.488"
+            tools:layout_editor_absoluteX="115dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#DF1C1C"
+            android:text="9+"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.484"
+            tools:layout_editor_absoluteX="203dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.512"
+            app:srcCompat="@drawable/baseline_edit_24"
+            tools:layout_editor_absoluteX="332dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="29dp"
+            android:layout_height="31dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_search_24"
+            tools:layout_editor_absoluteX="373dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="232dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:srcCompat="@drawable/cover" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sok Sao"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.2k friend"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Love travelling"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="169dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#1057FA"
+        android:text="+ Add to story"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="169dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#B2B7C1"
+        android:foregroundTint="#000000"
+        android:text="     Edit Profile"
+        app:rippleColor="#000000"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="29dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#B2B7C1"
+        android:foregroundTint="#000000"
+        app:rippleColor="#000000"
+        tools:layout_editor_absoluteX="359dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="32dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/baseline_adf_scanner_24"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:srcCompat="@drawable/baseline_add_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/baseline_android_24"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student at "
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Royal University of Phnom Penh"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/baseline_app_registration_24"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See your about info"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="377dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#E0E5F1"
+        android:text="Edit public details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="154dp"
+        android:layout_height="147dp"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
